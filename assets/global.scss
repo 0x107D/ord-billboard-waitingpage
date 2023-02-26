@@ -1,0 +1,171 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "VT323", Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+}
+
+input,
+textarea,
+button,
+code {
+  font-family: "VT323", Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+}
+
+%button {
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  height: 1.72rem;
+  padding: 0.15rem 0.6rem 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #000;
+  border: 0.08333rem solid #000;
+  border-radius: 0;
+  outline: none;
+  background: #fff;
+  box-shadow: 2px 2px #bbb;
+  -webkit-appearance: none;
+  appearance: none;
+  fill: #000;
+}
+
+.button {
+  @extend %button;
+}
+
+.crt-effect {
+  display: block;
+  background: transparent;
+  position: relative;
+}
+
+.crt-effect::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+    linear-gradient(
+      90deg,
+      rgba(255, 0, 0, 0.06),
+      rgba(0, 255, 0, 0.02),
+      rgba(0, 0, 255, 0.06)
+    );
+  z-index: 12;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+
+.crt-effect::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(18, 16, 16, 0.1);
+  opacity: 0;
+  z-index: 12;
+  pointer-events: none;
+  animation: vapflicker 0.15s infinite;
+}
+
+@keyframes vapflicker {
+  0% {
+    opacity: 0.49295;
+  }
+  5% {
+    opacity: 0.04773;
+  }
+  10% {
+    opacity: 0.58167;
+  }
+  15% {
+    opacity: 0.51082;
+  }
+  20% {
+    opacity: 0.18157;
+  }
+  25% {
+    opacity: 0.10852;
+  }
+  30% {
+    opacity: 0.92611;
+  }
+  35% {
+    opacity: 0.03226;
+  }
+  40% {
+    opacity: 0.09669;
+  }
+  45% {
+    opacity: 0.96912;
+  }
+  50% {
+    opacity: 0.12151;
+  }
+  55% {
+    opacity: 0.83381;
+  }
+  60% {
+    opacity: 0.43962;
+  }
+  65% {
+    opacity: 0.42909;
+  }
+  70% {
+    opacity: 0.67955;
+  }
+  75% {
+    opacity: 0.8547;
+  }
+  80% {
+    opacity: 0.36018;
+  }
+  85% {
+    opacity: 0.71239;
+  }
+  90% {
+    opacity: 0.4122;
+  }
+  95% {
+    opacity: 0.70779;
+  }
+  100% {
+    opacity: 0.07988;
+  }
+}
+
+@keyframes textflicker {
+  from {
+    text-shadow: 1px 0 0 var(--vapcolor1), -2px 0 0 var(--vapcolor2);
+  }
+
+  to {
+    text-shadow: 2px 0.5px 2px var(--vapcolor1),
+      -1px -0.5px 2px var(--vapcolor2);
+  }
+}
+
+@keyframes boxflicker {
+  from {
+    box-shadow: 1px 0 0 var(--color-a5), -2px 0 0 var(--color-a4);
+  }
+
+  to {
+    box-shadow: 2px 0.5px 2px var(--color-a5), -1px -0.5px 2px var(--color-a4);
+  }
+}

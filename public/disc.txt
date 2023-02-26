@@ -1,0 +1,47 @@
+OrdinalBoard Terms of Use for Ordinal Inscription Creators
+
+Terms of Use. These Additional Terms of Use for Ordinal Inscription Creators ("Ordinal Inscription Creator Terms"), set 
+forth by Ordinalboard.com
+
+Ordinals and Inscriptions. Ordinals and inscriptions are mechanisms by which satoshis, units of bitcoin, are identified, 
+tracked, and inscribed with information on the Bitcoin blockchain. The process of inscription inscribes unique information 
+associated with a satoshi that differentiates it from other satoshis. After inscription, a satoshi could then be 
+considered non-fungible with other satoshis. This Portal helps you create custom ordinal inscriptions. That said, because  
+ordinal inscriptions are deployed to a blockchain, there are many ways in which they may never be changed. They also may 
+never be deleted. The creation of an ordinal inscription by you through the Portal is considered a User Contribution.
+
+You Own Your Ordinal Inscription. You are the sole owner of your ordinal inscription and solely responsible for the  
+legitimacy, authenticity, display, deployment, promotion, support, and any liability associated with your ordinal 
+inscription. You attest that you are the sole owner of any artwork or intellectual property used in connection with your 
+ordinal inscription and attest that your ordinal inscription does not violate any other entity's or persons' copyright or 
+any other rights. Our system briefly maintains administrative control over your ordinal inscription at the time of 
+creation, but it is immediately transferred to you. We are not responsible for technical issues that arise while under our 
+administrative control.
+
+Compatible Bitcoin Address and Wallet. Ordinal inscriptions are a new technology and only compatible with certain 
+specialized Bitcoin addresses and wallet software. It is your responsibility to research a compatible address format and 
+wallet that is supported for this purpose. It is possible there could be no publicly available software offerings to view, 
+manage, and transfer your ordinal inscription. After creating your ordinal inscription, Ordinalboard will transfer the 
+inscribed satoshi’s UTXO to the address you used to pay for the transaction, or to the “Ordinal recipient address” if one 
+is provided when using the Portal. If you pay with or provide an incompatible address, if you do not have access to 
+compatible wallet software, or if you lose access to the address’s private key, it is highly likely that you will never be 
+able to trade or transfer this UTXO containing your ordinal inscription. We recommend using a new address for each ordinal 
+inscription to increase the likelihood for forward compatibility, but this should be considered a guide and not a 
+guaranty. Ordinalboard does not guarantee your ability to trade or transfer your UTXO once it is transferred to you.
+
+Refunds. Ordinalboard cannot and does not offer refunds once your ordinal inscription transaction has been broadcast to 
+the Bitcoin network, an automated process that occurs immediately after receiving payment. If we can independently verify 
+that we remain in possession of your entire payment amount, we will issue a refund, less network fees, to the original 
+payment address. We do not issue refunds to any other address or for any other reason.
+
+Content Moderation. We use automated systems including third-party tools to filter out content containing nudity, violent 
+and visually disturbing images, and hateful or extreme content. We reserve the right to change which content is filtered 
+at any time without notice. If our automated systems detect such content, we will not allow you to create it as an ordinal 
+inscription. You agree not to attempt to circumvent or reverse engineer these systems to create such content or for any 
+other purpose. Users are forbidden from using our service to create ordinal inscriptions including such content, or any 
+illegal content of any kind, even if they are not detected by our automated systems. Once an ordinal inscription is 
+created on the blockchain, we are no longer able to moderate or censor its material.
+
+Removal and Control. We reserve the right to remove ordinal inscriptions from view or prevent ordinal inscriptions from 
+appearing on our main marketplace for any or no reason if they are found to violate our standards or infringe upon any 
+other person or entity's copyright or any law.

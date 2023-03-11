@@ -3,12 +3,13 @@
     <Head>
       <Title>OrdinalBoard - The immortal board</Title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <meta http-equiv="refresh" content="20">
     </Head>
     <header>
       <BigButton />
     </header>
     <main>
-      <p>Hey Legend ! We're updating some things :-] We'll be there in the next few minutes...</p>
+      <p>Hey Legend ! We're coming back with the V2 in few minutes :-]</p>
       <p>
         <a href="https://discord.gg/3d634w89Vk" target="_blank">Join the discord</a>
       </p>
